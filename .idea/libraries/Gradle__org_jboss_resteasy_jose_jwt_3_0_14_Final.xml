@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.resteasy:jose-jwt:3.0.14.Final">
+    <CLASSES>
+      <root url="jar://$PROJECTS_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.resteasy/jose-jwt/3.0.14.Final/8d28c3d644afac9c6bd4bae58d827d9434a88c61/jose-jwt-3.0.14.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECTS_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.resteasy/jose-jwt/3.0.14.Final/802dd99c2f597eab9e94dceb070d7135d6e4a066/jose-jwt-3.0.14.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
