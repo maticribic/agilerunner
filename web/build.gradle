@@ -2,4 +2,13 @@ apply plugin: "war"
 
 dependencies {
     compile project(":data")
+    compile 'org.jboss.spec.javax.faces:jboss-jsf-api_2.2_spec:2.2.12'
+}
+
+war {
+//    from 'src/rootContent' // adds a file-set to the root of the archive
+    webInf { from 'src/main/webapp/WEB-INF' } // adds a file-set to the WEB-INF dir.
+//    classpath fileTree('additionalLibs') // adds a file-set to the WEB-INF/lib dir.
+//    classpath configurations.moreLibs // adds a configuration to the WEB-INF/lib dir.
+    webXml = file('src/main/webapp/WEB-INF/web.xml') // copies a file to WEB-INF/web.xml
 }
