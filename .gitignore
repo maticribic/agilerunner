@@ -1,5 +1,6 @@
 # compiled
 /classes
+/out
 /data/build
 /web/build
 
